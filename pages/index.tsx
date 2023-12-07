@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Faucet from "../components/Faucet";
+import { EarthCanvas } from "../components/canvas";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
       <main>
+       <EarthCanvas />
         <Faucet />
+        
       </main>
     </>
   );
