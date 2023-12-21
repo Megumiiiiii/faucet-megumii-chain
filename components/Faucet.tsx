@@ -60,6 +60,14 @@ export default function Faucet() {
                 Follow me on X
               </a>
             </p>
+            <div className="flex justify-center">
+              <iframe
+                src="https://arweave.net/5bKSy-DKlu7jG4oICKxEsvndGZP2zUjuszfq4-bYWFQ"
+                width={400}
+                height={400}
+              >
+              </iframe>
+            </div>
           </form>
         </div>
       </div>
